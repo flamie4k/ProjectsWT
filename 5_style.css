@@ -1,0 +1,133 @@
+/* NAVBAR STYLING */
+.navbar {
+    list-style-type: none;
+    text-align: center;
+    width: auto;
+    height: 50px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: #c1c1c1;
+  }
+  .navbar li {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .navbar li a{
+    text-decoration: none;
+    color: black;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e1f1a1;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropbtn{
+    text-decoration: none;
+    color:black;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/* Body styling */
+body{
+  background-color: hsl(300, 20%, 50%)
+}
+.body-container{
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+}
+.leftimage{
+  background-color: cyan;
+  background-image: url("catt.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  width: 300px;
+  margin:5px;
+}
+.midcontainer{
+  height: auto;
+  width: 100%;
+}
+.mid-mid{
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+}
+.midtopimage{
+  background-color: blueviolet;
+  background-image: url("IMG_20221003_101548.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 250px;
+  width: auto;
+  margin-left:10px;
+  margin-top:10px;
+  margin-bottom:5px;
+  margin-right:10px;
+}
+.midleftimage{
+  background-color: #e1f1a1;
+  background-image: url("lutput_1.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  width: 50%;
+  margin-left:10px;
+  margin-top:5px;
+  margin-bottom:10px;
+  margin-right:5px;
+}
+.midrightimage{
+  background-color: chocolate;
+  background-image: url("catt_3.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  width: 50%;
+  margin-right:10px;
+  margin-top:5px;
+  margin-bottom:10px;
+  margin-left:5px;
+}
+.rightimage{
+  background-color: cornflowerblue;
+  background-image: url("catt_2.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  width: 300px;
+  margin:5px;
+}
+.footer{
+  background-color: #d1d1d1;
+  text-align: center;
+  height: 75px;
+  padding:10px;
+  width: auto;
+}

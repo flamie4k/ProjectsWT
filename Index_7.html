@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> Project 7</title>
+            <link rel="stylesheet" href="project7.css">
+        </head>
+        <body>
+            <!-- Navbar section -->
+            <div class="navbar_container">
+            <div class="navbar_1">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Courses</a></li>
+                </ul>
+            </div>
+            <div class="navbar_2">
+                <ul>
+                    <li><a href="project7_form.html">Sign-up</a></li>
+                </ul>
+            </div>
+            </div>
+            <!-- Body section -->
+            <div class="body-container">
+                <div class="leftimage">
+                </div>
+                <div class="midcontainer">
+                    <div class="midtopimage" id="l0"><button onclick="image0()">Orginal </button></div>
+                    <div class="mid-mid">
+                        <div class="midleftimage" id="l1"><button onclick="image1()">Click me </button></div>
+                        <div class="midmidimg" id="l2"><button onclick="image2()">Click me </button></div>
+                        <div class="midrightimage" id="l3"><button onclick="image3()">Click me </button></div>
+                    </div>
+                </div>
+                <div class="rightimage"></div>
+            </div>
+            <div class="footer"></div>
+        </body>
+        <script>
+            function image1(){
+                var a = document.getElementById('l0');
+                a.style.backgroundImage="url('Cat_3.jpg')";
+            }
+            function image2(){
+                var b = document.getElementById('l0');
+                b.style.backgroundImage="url('th.jpg')";
+            }
+            function image3(){
+                var c = document.getElementById('l0');
+                c.style.backgroundImage="url('Cat_4.jpg')";
+            }
+            function image0(){
+                var f = document.getElementById('l0');
+                f.style.backgroundImage="url('Cat_2.jpg')";
+            }
+        </script>
+    </html>

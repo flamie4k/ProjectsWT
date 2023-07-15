@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project 6 </title>
+        <link rel="stylesheet" href="lab10.css">
+    </head>
+    <body>
+        <a href="index.html">Home</a>
+        <h3 style="text-align: center;"> There are many events. Among them, some are done here </h3>
+        <button onclick="clickuu()">Onclick Event</button>
+        <span id="span1">I am Span </span>
+        <br>
+        <p id="po1">Enter your name : <input type="text" id="input1" onmouseenter="input1()" onmouseleave="input2()" value="Name please and hit enter"></p>
+        <br>
+        <div id="div1" onmouseover="mouseover()">Mouse Over and Out</div>
+        <div id="divcontainer">
+        <div id="div2" onmouseout="mouseout()">Mouse Up and Down</div>
+        <div id="div3">
+            <p>Write about yourself : </p>
+            <input type="text" value="write here...">
+        </div>
+        </div>
+    </body>
+    <script>
+    function clickuu(){
+    document.getElementById("span1").style.color="red";
+    document.getElementById("span1").innerHTML="HELLO";
+    document.getElementById("span1").style.marginLeft="30%";
+    document.body.style.backgroundColor="skyblue";
+    }
+    function input1(){
+        document.getElementById("input1").style.color="red";
+    }
+    function input2(){
+        document.getElementById("input1").style.color="black";
+    }
+    function mouseover(){
+        document.getElementById("div1").style.backgroundColor="grey";
+        document.getElementById("div2").style.backgroundColor="greenyellow"
+    }
+    function mouseout(){
+        document.getElementById("div2").style.backgroundColor="blue";
+        document.getElementById("div1").style.backgroundColor="yellow";
+    }
+    </script>
+    </html>

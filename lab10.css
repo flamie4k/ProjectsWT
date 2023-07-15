@@ -1,0 +1,39 @@
+body{
+    background-color: cyan;
+    margin:0;
+    padding:0;
+}
+#div1{
+    background-color: greenyellow;
+    height: 300px;
+    width: 200px;
+    margin: 5px;
+    text-align: center;
+    padding-top: 20px;
+}
+#divcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+#div2{
+    background-color: yellow;
+    height: 300px;
+    width: 200px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+    padding-top: 20px;
+}
+#div3{
+    height: auto;
+    align-self: center;
+    margin-right: 70%;
+}
+#div3 input {
+    height: 200px;
+    text-overflow: none;
+}
+#div3 input:hover{
+    background-color: black;
+    color:red;
+}
